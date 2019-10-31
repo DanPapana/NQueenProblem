@@ -10,7 +10,7 @@ class MainFrame extends JFrame {
 
     private String[] sizeList = {"4", "5", "6", "8", "12"};
     private JComboBox sizeCombo = new JComboBox<>(sizeList);
-    private ImageIcon queenImage = new ImageIcon(Toolkit.getDefaultToolkit().getImage(getClass().getResource("/resources/Queen2.png")));
+    private ImageIcon queenImage = new ImageIcon(Toolkit.getDefaultToolkit().getImage(getClass().getResource("/resources/Queen.png")));
     private JPanel TheChessPanel = getSquares();
     private JPanel[][] squares;
     private int[] queen_array;
